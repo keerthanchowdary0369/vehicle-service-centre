@@ -8,6 +8,11 @@ DATABASE = 'vsc.db'
 def get_db():
     db = getattr(g, '_database', None)
     if db is None:
+        # Auto-initialize database if it doesn't exist (useful for cloud deployments)
+        if not os.path.exists(DATABASE):
+            import init_db
+            init_db.init_db()
+            
         db = g._database = sqlite3.connect(DATABASE)
         db.row_factory = sqlite3.Row
         db.execute('PRAGMA foreign_keys = ON;')
