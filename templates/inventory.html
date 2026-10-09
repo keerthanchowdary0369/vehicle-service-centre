@@ -2,7 +2,6 @@
 {% block content %}
 <div class="d-flex justify-content-between align-items-center page-header">
     <h2 class="mb-0">Spare Parts Inventory</h2>
-    <button class="btn btn-primary"><i class="fa-solid fa-plus me-1"></i> Add Part</button>
 </div>
 
 <div class="row mb-4">
@@ -50,6 +49,35 @@
                 </table>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="card mt-2 mb-5" style="max-width: 600px;">
+    <div class="card-header bg-white font-weight-bold">
+        <i class="fa-solid fa-plus me-2 text-primary"></i> Add New Spare Part
+    </div>
+    <div class="card-body">
+        <form method="POST">
+            <div class="mb-3">
+                <label>Part Name</label>
+                <input type="text" name="part_name" class="form-control" required>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label>Unit Price (₹)</label>
+                    <input type="number" step="0.01" name="unit_price" class="form-control" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label>Stock Qty</label>
+                    <input type="number" name="stock_qty" class="form-control" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label>Reorder Level</label>
+                    <input type="number" name="reorder_level" class="form-control" value="5" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Save Part</button>
+        </form>
     </div>
 </div>
 {% endblock %}

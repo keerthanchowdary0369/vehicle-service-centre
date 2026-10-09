@@ -112,9 +112,21 @@ def job_cards():
     job_cards = cur.fetchall()
     return render_template('job_cards.html', job_cards=job_cards)
 
-@app.route('/inventory')
+@app.route('/inventory', methods=['GET', 'POST'])
 def inventory():
     db = get_db()
+    if request.method == 'POST':
+        part_name = request.form['part_name']
+        unit_price = request.form['unit_price']
+        stock_qty = request.form['stock_qty']
+        reorder_level = request.form['reorder_level']
+        try:
+            db.execute("INSERT INTO Spare_Part (PartName, UnitPrice, StockQty, ReorderLevel) VALUES (?, ?, ?, ?)", (part_name, unit_price, stock_qty, reorder_level))
+            db.commit()
+        except sqlite3.Error as e:
+            return f"An error occurred: {e}"
+        return redirect(url_for('inventory'))
+        
     cur = db.execute("SELECT * FROM Spare_Part")
     parts = cur.fetchall()
     return render_template('inventory.html', parts=parts)
