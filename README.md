@@ -2,8 +2,8 @@
 
 **Author:** G. Keerthan Chowdary (Roll No: 25WU0102076)
 
-## 🌐 Live Website
-**Live Demo Link:** [https://keerthanchowdary0369.github.io/vehicle-service-centre/](https://keerthanchowdary0369.github.io/vehicle-service-centre/)
+## 🌐 Live Website (Fully Functional)
+**Live Demo Link:** [https://b411b125c5aac1.lhr.life](https://b411b125c5aac1.lhr.life)
 
 This project is an end-to-end relational database management system tailored for multi-brand vehicle service facilities, based on the provided presentation (Project 10). It utilizes Python, Flask, and an SQLite 3NF relational database.
 
