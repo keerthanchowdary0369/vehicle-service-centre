@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Billing & Invoices</h2>
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Invoice ID</th>
+            <th>Job Card ID</th>
+            <th>Vehicle</th>
+            <th>Customer</th>
+            <th>Labor (₹)</th>
+            <th>Parts (₹)</th>
+            <th>Net Amount (₹)</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for i in invoices %}
+        <tr>
+            <td>{{ i.InvoiceID }}</td>
+            <td>{{ i.JobCardID }}</td>
+            <td>{{ i.RegNo }}</td>
+            <td>{{ i.CustomerName }}</td>
+            <td>{{ i.LaborTotal }}</td>
+            <td>{{ i.PartsTotal }}</td>
+            <td><strong>{{ i.NetAmount }}</strong></td>
+            <td>
+                {% if i.PaymentStatus == 'Paid' %}
+                <span class="badge bg-success">Paid</span>
+                {% else %}
+                <span class="badge bg-warning text-dark">Unpaid</span>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Vehicles</h2>
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Reg No</th>
+            <th>Owner</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Fuel</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for v in vehicles %}
+        <tr>
+            <td>{{ v.RegNo }}</td>
+            <td>{{ v.CustomerName }}</td>
+            <td>{{ v.Make }}</td>
+            <td>{{ v.Model }}</td>
+            <td>{{ v.MfgYear }}</td>
+            <td>{{ v.FuelType }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<h4 class="mt-5">Add Vehicle</h4>
+<form method="POST" class="mt-3" style="max-width: 500px;">
+    <div class="mb-3">
+        <label>Reg No</label>
+        <input type="text" name="reg_no" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Customer</label>
+        <select name="customer_id" class="form-control" required>
+            {% for c in customers %}
+            <option value="{{ c.CustomerID }}">{{ c.Name }} ({{ c.Phone }})</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="mb-3">
+        <label>Make</label>
+        <input type="text" name="make" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Model</label>
+        <input type="text" name="model" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Year</label>
+        <input type="number" name="year" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Fuel Type</label>
+        <select name="fuel_type" class="form-control" required>
+            <option>Petrol</option>
+            <option>Diesel</option>
+            <option>CNG</option>
+            <option>Electric</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Vehicle</button>
+</form>
+{% endblock %}

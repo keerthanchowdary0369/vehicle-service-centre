@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center page-header">
+    <h2 class="mb-0">Job Cards Overview</h2>
+</div>
+
+<div class="card">
+    <div class="card-body p-0">
+        <table class="table table-hover mb-0">
+            <thead>
+                <tr>
+                    <th class="ps-4">Job Card ID</th>
+                    <th>Booking ID</th>
+                    <th>Reg No</th>
+                    <th>Date In</th>
+                    <th>Date Out</th>
+                    <th class="text-center">Status</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for j in job_cards %}
+                <tr>
+                    <td class="ps-4 fw-bold">#{{ j.JobCardID }}</td>
+                    <td>{{ j.BookingID }}</td>
+                    <td><span class="badge bg-light text-dark border">{{ j.RegNo }}</span></td>
+                    <td>{{ j.DateIn }}</td>
+                    <td>{{ j.DateOut or '<span class="text-muted">Ongoing</span>'|safe }}</td>
+                    <td class="text-center">
+                        {% if j.JobStatus == 'Closed' %}
+                        <span class="badge bg-success rounded-pill px-3 py-2"><i class="fa-solid fa-check-circle me-1"></i> Closed</span>
+                        {% elif j.JobStatus == 'In Progress' %}
+                        <span class="badge bg-primary rounded-pill px-3 py-2"><i class="fa-solid fa-spinner fa-spin me-1"></i> In Progress</span>
+                        {% else %}
+                        <span class="badge bg-warning text-dark rounded-pill px-3 py-2"><i class="fa-solid fa-folder-open me-1"></i> Open</span>
+                        {% endif %}
+                    </td>
+                    <td class="text-center">
+                        <button class="btn btn-sm btn-outline-secondary"><i class="fa-solid fa-eye"></i> View</button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
