@@ -7,6 +7,15 @@
 
 ---
 
+## 📊 Review 1 Presentation (View Directly in GitHub)
+
+You can view the full Review 1 presentation directly inside GitHub without needing to download anything:
+
+- 📑 **[Open Review 1 Presentation (PDF Viewer)](Review-1-Deliverable.pdf)** *(Renders natively in GitHub's interactive in-browser viewer)*
+- 🖼️ **[View Review 1 Slide-by-Slide Deck (Markdown)](REVIEW_1.md)** *(Includes all high-resolution slides, diagrams, and descriptions)*
+
+---
+
 ## 🌐 Live Application & Quick Launch
 
 - **Live Web Application:** [Vehicle Service Centre Management](https://a5f8a8aa69d84e.lhr.life)
