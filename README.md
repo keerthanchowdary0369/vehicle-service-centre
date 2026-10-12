@@ -19,6 +19,10 @@ You can view the full presentations directly inside GitHub without needing to do
 - 📑 **[Open Review 2 PDF](Review-2-Deliverable.pdf)** *(Renders natively in GitHub's interactive in-browser PDF viewer)*
 - 🖼️ **[View Review 2 Slide Deck (Markdown)](REVIEW_2.md)** *(Includes all high-resolution slides, 3NF schema tables, DDL code, and 10 SQL queries)*
 
+### 🔹 Review 3: AutoCore VSC Website & Final Demonstration
+- 📑 **[Open Review 3 PDF](Review-3-Deliverable.pdf)** *(Renders natively in GitHub's interactive in-browser PDF viewer)*
+- 🖼️ **[View Review 3 Slide Deck (Markdown)](REVIEW_3.md)** *(Includes all high-resolution slides, website module screenshots, and viva-voce prep)*
+
 ---
 
 ## 🌐 Live Application & Quick Launch
