@@ -252,6 +252,7 @@ All operational scenarios and negative integrity constraints were rigorously tes
 ```text
 vehicle_service_centre/
 ├── app.py                     # Flask web server and routing logic
+├── service_centre.py          # Review 2 & 3 Python terminal prototype and test runner
 ├── init_db.py                 # DDL schema script, triggers, and sample data population
 ├── start_website.bat          # Desktop launch runner for Windows
 ├── requirements.txt           # Python dependencies
@@ -294,6 +295,12 @@ python init_db.py
 python app.py
 ```
 Open your browser and navigate to **`http://127.0.0.1:5000`**.
+
+### 6. Run the Terminal Prototype & Automated Demonstration
+```bash
+python service_centre.py          # Interactive terminal menu
+python service_centre.py --demo   # Scripted end-to-end demonstration test run
+```
 
 ---
 
