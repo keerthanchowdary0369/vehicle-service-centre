@@ -22,11 +22,6 @@ You can view the full presentations directly inside GitHub without needing to do
 ### 🔹 Review 3: AutoCore VSC Website & Final Demonstration
 - 📑 **[Open Review 3 PDF](Review-3-Deliverable.pdf)** *(Renders natively in GitHub's interactive in-browser PDF viewer)*
 - 🖼️ **[View Review 3 Slide Deck (Markdown)](REVIEW_3.md)** *(Includes all high-resolution slides, website module screenshots, and viva-voce prep)*
-
-### 🔹 Project Report: Comprehensive DBMS PBL Report
-- 📑 **[Open Project Report PDF](DBMS-PBL-Report.pdf)** *(Renders natively in GitHub's interactive in-browser PDF viewer)*
-- 📄 **[Read Full Project Report (Markdown)](PROJECT_REPORT.md)** *(Complete academic report with chapters 1–4, data dictionary, test cases, and references)*
-
 ---
 
 ## 🌐 Live Application & Quick Launch
