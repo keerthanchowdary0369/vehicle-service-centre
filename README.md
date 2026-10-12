@@ -7,12 +7,17 @@
 
 ---
 
-## 📊 Review 1 Presentation (View Directly in GitHub)
+## 📊 Project Review Presentations (View Directly in GitHub)
 
-You can view the full Review 1 presentation directly inside GitHub without needing to download anything:
+You can view the full presentations directly inside GitHub without needing to download any files:
 
-- 📑 **[Open Review 1 Presentation (PDF Viewer)](Review-1-Deliverable.pdf)** *(Renders natively in GitHub's interactive in-browser viewer)*
-- 🖼️ **[View Review 1 Slide-by-Slide Deck (Markdown)](REVIEW_1.md)** *(Includes all high-resolution slides, diagrams, and descriptions)*
+### 🔹 Review 1: System Architecture & Conceptual ER Modeling
+- 📑 **[Open Review 1 PDF](Review-1-Deliverable.pdf)** *(Renders natively in GitHub's interactive in-browser PDF viewer)*
+- 🖼️ **[View Review 1 Slide Deck (Markdown)](REVIEW_1.md)** *(Includes all high-resolution slides, entity relationships, and ER diagram)*
+
+### 🔹 Review 2: 3NF Normalization, DDL & SQL Queries
+- 📑 **[Open Review 2 PDF](Review-2-Deliverable.pdf)** *(Renders natively in GitHub's interactive in-browser PDF viewer)*
+- 🖼️ **[View Review 2 Slide Deck (Markdown)](REVIEW_2.md)** *(Includes all high-resolution slides, 3NF schema tables, DDL code, and 10 SQL queries)*
 
 ---
 
