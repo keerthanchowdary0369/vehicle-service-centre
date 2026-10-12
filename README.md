@@ -7,19 +7,6 @@
 
 ---
 
-## 📑 Project Presentations & Documentation
-
-All deliverables for Review 1, Review 2, and Review 3, as well as the comprehensive PBL Project Report, are available in this repository:
-
-| Deliverable | Title & Scope | Files |
-| :--- | :--- | :--- |
-| **Review 1** | **System Architecture, Conceptual ER Modeling & Relational Design**<br>Problem statement, scope, 10 primary entities, cardinality, ER diagram. | 📊 [Review-1 Presentation (PPTX)](presentations/Review-1_Vehicle_Service_Centre.pptx)<br>📄 [Review-1 Document (PDF)](presentations/Review-1_Vehicle_Service_Centre.pdf) |
-| **Review 2** | **3NF Normalization, DDL with Constraints, Sample Data & SQL Queries**<br>UNF-to-3NF normalization, DDL schema, triggers, sample dataset, analytical queries. | 📊 [Review-2 Presentation (PPTX)](presentations/Review-2_Vehicle_Service_Centre.pptx) |
-| **Review 3** | **Python Web Application, Final Demonstration, Report & Viva-Voce**<br>End-to-end Python/Flask application, live demonstration, test cases, and viva prep. | 📊 [Review-3 Presentation (PPTX)](presentations/Review-3_Vehicle_Service_Centre.pptx) |
-| **Full Report** | **Comprehensive DBMS Project-Based Learning Report**<br>Complete academic documentation including schema analysis, triggers, and testing results. | 📄 [DBMS Project Report (DOCX)](docs/DBMS_PBL_Report_Vehicle_Service_Centre.docx) |
-
----
-
 ## 🌐 Live Application & Quick Launch
 
 - **Live Web Application:** [Vehicle Service Centre Management](https://a5f8a8aa69d84e.lhr.life)
@@ -250,14 +237,6 @@ vehicle_service_centre/
 ├── init_db.py                 # DDL schema script, triggers, and sample data population
 ├── start_website.bat          # Desktop launch runner for Windows
 ├── requirements.txt           # Python dependencies
-├── presentations/             # Academic review slide decks
-│   ├── Review-1_Vehicle_Service_Centre.pptx
-│   ├── Review-1_Vehicle_Service_Centre.pdf
-│   ├── Review-2_Vehicle_Service_Centre.pptx
-│   └── Review-3_Vehicle_Service_Centre.pptx
-├── docs/                      # Comprehensive PBL documentation
-│   ├── DBMS_PBL_Report_Vehicle_Service_Centre.docx
-│   └── slides/                # Extracted slide figures and diagrams
 └── templates/                 # Jinja2 HTML5 UI templates
     ├── base.html              # Layout with navigation and author profile
     ├── index.html             # Command Center dashboard with Chart.js
