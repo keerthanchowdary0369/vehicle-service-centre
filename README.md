@@ -312,6 +312,7 @@ python service_centre.py --demo   # Scripted end-to-end demonstration test run
 
 - **Student:** G. Keerthan Chowdary
 - **Roll Number:** `25WU0102076`
+- **Email:** `keerthan.g_2029@woxsen.edu.in`
 - **Institution:** School of Technology, Woxsen University
 - **Course:** Database Management Systems (Project-Based Learning)
 - **Academic Year:** 2026

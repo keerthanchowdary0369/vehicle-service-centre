@@ -6,7 +6,7 @@
 > **Program:** B.Tech in Computer Science and Engineering (AI & ML) — Section: AIML Rhinos  
 > **Batch:** 2025 – 2029 | Academic Year: 2026 – 2027  
 > **Course Faculty:** Prof. Sahithi, School of Technology  
-> **Submitted by:** G. Keerthan Chowdary (Roll No: `25WU0102076` | Email: `Keerthan.g_2029@woxsen.edu.in`)  
+> **Submitted by:** G. Keerthan Chowdary (Roll No: `25WU0102076` | Email: `keerthan.g_2029@woxsen.edu.in`)  
 > **Date of Submission:** October 2026  
 
 📄 **[Click here to view the PDF Report directly in GitHub](Project-Report.pdf)**
