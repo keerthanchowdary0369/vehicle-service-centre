@@ -22,7 +22,7 @@ All deliverables for Review 1, Review 2, and Review 3, as well as the comprehens
 
 ## 🌐 Live Application & Quick Launch
 
-- **Live Web Application:** [Vehicle Service Centre Management](https://89cfa03d00e924.lhr.life)
+- **Live Web Application:** [Vehicle Service Centre Management](https://a5f8a8aa69d84e.lhr.life)
 - **Local Quick Launch (Windows):** Double-click [`start_website.bat`](start_website.bat) on your desktop or project root to spin up the Flask backend and launch the web interface instantly at `http://127.0.0.1:5000`.
 
 ---
