@@ -4,3 +4,4 @@ venv/
 env/
 .env
 vsc.db
+gh-pages-build/
