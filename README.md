@@ -27,6 +27,10 @@ You can view the full presentations directly inside GitHub without needing to do
 - 📑 **[Open Project Report PDF](Project-Report.pdf)** *(Renders natively in GitHub's interactive in-browser PDF viewer)*
 - 📄 **[Read Project Report (Markdown)](PROJECT_REPORT.md)** *(Complete academic report with chapters 1–4, data dictionary, test cases, and references)*
 
+### 📜 Professional Database & SQL Certifications
+- 📑 **[Open Certificates PDF](Certificates.pdf)** *(Renders natively in GitHub's interactive in-browser PDF viewer)*
+- 🖼️ **[View Certificates Gallery (Markdown)](CERTIFICATES.md)** *(Includes Simplilearn Database Fundamentals, HackerRank SQL Intermediate, and LeetCode SQL 50 badge)*
+
 ---
 
 ## 🌐 Live Application & Quick Launch
